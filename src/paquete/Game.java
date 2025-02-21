@@ -68,17 +68,19 @@ public class Game extends javax.swing.JPanel {
 //                Utilidades.ShowPanel(Main.instance.Panelbody, hm); 
                 System.out.println("Botón Comenzar pulsado");  // Verifica si el evento se dispara
                 try {
-                    // Ruta del archivo JSON
-                    String jsonPath = "src/Resources/BaseDeDatos.json";  // Asegúrate de que esta ruta es correcta
-                    System.out.println("Ruta del archivo JSON: " + jsonPath);  // Verifica la ruta del archivo JSON
+//                    // Ruta del archivo JSON
+//                    String jsonPath = "src/Resources/BaseDeDatos.json";  // Asegúrate de que esta ruta es correcta
+//                    System.out.println("Ruta del archivo JSON: " + jsonPath);  // Verifica la ruta del archivo JSON
+//
+//                    // Cargar JSON
+//                    JSONNavigator.cargarJSON(jsonPath);
+//                    System.out.println("JSON cargado exitosamente");  // Verifica que el JSON se cargue correctamente
+//
+//                    // Obtener la ruta del ejecutable desde el JSON
+//                    Object rutaObj = JSONNavigator.acceder("grados", String.valueOf(indiceHome), "juegos", String.valueOf(indiceGame), "ruta");
+//                    System.out.println("Ruta del ejecutable: " + rutaObj);  // Verifica si la ruta se obtiene correctamente desde el JSON
 
-                    // Cargar JSON
-                    JSONNavigator.cargarJSON(jsonPath);
-                    System.out.println("JSON cargado exitosamente");  // Verifica que el JSON se cargue correctamente
-
-                    // Obtener la ruta del ejecutable desde el JSON
-                    Object rutaObj = JSONNavigator.acceder("grados", String.valueOf(indiceHome), "juegos", String.valueOf(indiceGame), "ruta");
-                    System.out.println("Ruta del ejecutable: " + rutaObj);  // Verifica si la ruta se obtiene correctamente desde el JSON
+                    Object rutaObj = Main.instance.obtenerDatoJuego("ruta", String.valueOf(indiceHome), String.valueOf(indiceGame));
 
                     if (rutaObj instanceof String) {
                         String rutaEjecutable = (String) rutaObj;
