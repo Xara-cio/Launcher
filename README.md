@@ -1,6 +1,7 @@
 🎮 Game Launcher
 
-Bienvenido a Game Launcher, una plataforma diseñada para organizar y acceder rápidamente a tus juegos favoritos. Nuestro launcher cuenta con 14 categorías, cada una representada por 6 imágenes, y cada imagen agrupa 5 juegos, brindando una experiencia visual e intuitiva para la selección de juegos.
+Bienvenido a Game Launcher, una plataforma diseñada para organizar y acceder rápidamente a tus juegos favoritos. Nuestro launcher cuenta con 14 categorías, cada una representada por 6 juegos distintos, y cada imagen agrupa 5 juegos, brindando una experiencia visual e intuitiva para la selección de juegos.
+Utiliza un **Json** como BBDD para mostrar en cada uno imágenes y descripciones
 
 🚀 Características
 
@@ -8,11 +9,17 @@ Bienvenido a Game Launcher, una plataforma diseñada para organizar y acceder r�
 
 🖼️ Interfaz visual con imágenes representativas de cada categoría.
 
-🎮 Acceso rápido a 5 juegos por imagen.
+🎮 Acceso rápido a 6 juegos, cada juego cuenta con una galería de imágenes.
 
 🔍 Búsqueda intuitiva de juegos por categoría o imagen.
 
 ⚙️ Personalización de categorías e imágenes según las preferencias del usuario.
+
+Dependencias
+
+Java 8
+Java (JDK 21)
+
 
 📂 Instalación
 
