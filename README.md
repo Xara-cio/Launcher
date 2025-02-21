@@ -1,49 +1,53 @@
-🎮 Game Launcher
+# 🚀 Launcher - Aplicación de Juegos en Java Swing
 
-Bienvenido a Game Launcher, una plataforma diseñada para organizar y acceder rápidamente a tus juegos favoritos. Nuestro launcher cuenta con 14 categorías, cada una representada por 6 juegos distintos, y cada imagen agrupa 5 juegos, brindando una experiencia visual e intuitiva para la selección de juegos.
-Utiliza un **Json** como BBDD para mostrar en cada uno imágenes y descripciones
+Lanzacohetes es una aplicación de escritorio desarrollada en **Java con Swing** que ofrece una interfaz visual atractiva para explorar una amplia colección de juegos. La aplicación cuenta con 14 categorías, cada una con 6 juegos distintos. 
+Utiliza un **Json** como bbdd para mostrar en cada uno imágenes y descripciones.
 
-🚀 Características
+---
 
-📌 14 categorías de juegos para una mejor organización.
+## 🎮 Características
+- ✅ **Interfaz gráfica amigable** con componentes Swing.
+- 🏆 **14 categorías** de juegos con navegación intuitiva.
+- 🎮 **Cada categoría contiene 6 juegos**.
+- 🕹️ **Cada juego cuenta con una galería de imágenes interactiva.**
+- ⚡ **Rendimiento óptimo**, diseñado para una experiencia de usuario fluida.
 
-🖼️ Interfaz visual con imágenes representativas de cada categoría.
+---
+## 📦 Instalación
 
-🎮 Acceso rápido a 6 juegos, cada juego cuenta con una galería de imágenes.
+### ✅ **Requisitos y herramientas**
+- **Java 8**
+- **JDK 21**
+- **NetBeans IDE23** (o cualquier otro compatible con Java Swing)
 
-🔍 Búsqueda intuitiva de juegos por categoría o imagen.
+### 📚 **Dependencias**
+Este proyecto requiere las siguientes librerías externas:
 
-⚙️ Personalización de categorías e imágenes según las preferencias del usuario.
+- **AbsoluteLayout.jar** → Para la gestión de diseño en la interfaz gráfica.
+- **org.json.jar** → Para el manejo de datos en formato JSON.
 
-Dependencias
+*Asegúrate de agregar estas librerías en NetBeans tras clonar el proyecto.*
 
-Java 8
-Java (JDK 21)
+---
+
+## 🔧 **Pasos para ejecutar el proyecto**
+
+1. Clonar este repositorio:
+   ```sh
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   ```
+2. Abrir el proyecto en **NetBeans**.
+3. Agregar las librerías necesarias desde la carpeta `libraries/`.
+4. Ejecutar el archivo principal desde NetBeans.
+
+---
+
+## 📌 Notas Adicionales
+- Se recomienda utilizar **NetBeans** para facilitar la configuración y ejecución.
+- Para futuras mejoras, se podría agregar una conexión a una base de datos para la gestión de juegos.
 
 
-📂 Instalación
-
-Clonar el repositorio
-
-git clone https://github.com/tu-usuario/game-launcher.git
-
-Acceder al directorio del proyecto
-
-cd game-launcher
-
-Instalar dependencias (si aplica)
-
-npm install  # Para proyectos en JavaScript
-# o
-pip install -r requirements.txt  # Para proyectos en Python
-
-Ejecutar el launcher
-
-npm start  # Para proyectos en JavaScript
-# o
-python main.py  # Para proyectos en Python
-
-📌 Uso
+## 📌 Uso
 
 Selecciona una categoría entre las 14 disponibles.
 
@@ -53,29 +57,10 @@ Haz clic en una imagen para ver los 5 juegos asociados y selecciona uno para jug
 
 Personaliza las categorías y las imágenes para una experiencia única.
 
-🤝 Contribuciones
+## 🤝 Contribuciones
 
-¡Nos encantaría recibir tus aportes! Para contribuir:
+¡Nos encantaría recibir tus aportes! Para contribuir
 
-Haz un fork del repositorio.
 
-Crea una rama con tu nueva funcionalidad:
-
-git checkout -b nueva-funcionalidad
-
-Realiza tus cambios y haz un commit:
-
-git commit -m "Añadir nueva funcionalidad"
-
-Sube los cambios:
-
-git push origin nueva-funcionalidad
-
-Abre un Pull Request en GitHub.
-
-📜 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más información.
-
-✨ ¡Disfruta de tu experiencia! ✨
+✨ ¡Disfruta de tu experiencia! ✨🚀🎮
 
